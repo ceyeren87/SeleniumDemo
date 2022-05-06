@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="D:/CeyhunMobil(failed)">
+    <classes>
+      <class name="KayitliAliciParaTransferleriiban">
+        <methods>
+          <include name="kayitliAliciParaTransferleriiban"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- KayitliAliciParaTransferleriiban -->
+    </classes>
+  </test> <!-- D:/CeyhunMobil(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
